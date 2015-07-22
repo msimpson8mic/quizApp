@@ -1,0 +1,66 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+.flag {
+    align-items: center;
+    background-image: url("../images/mexican.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 80%;
+    min-height: 300px;
+}
+
+.flag-inner {
+    background-color: rgba(0, 0, 0, .7);
+    padding: 1rem;
+}
+
+legend {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.outer {
+    text-align: center;
+}
+
+.center {
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+label:after {
+    content: "";
+    clear: both;
+    display: table;
+}
